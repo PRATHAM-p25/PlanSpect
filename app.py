@@ -2,7 +2,7 @@ import streamlit as st
 from ultralytics import YOLO
 import PIL
 import helper
-import setting
+import setting 
 
 def main():
     """

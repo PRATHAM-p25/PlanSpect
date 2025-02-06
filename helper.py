@@ -19,4 +19,6 @@ def generate_csv(object_counts):
     """
     csv_data = pd.DataFrame(list(object_counts.items()), columns=['Label', 'Count'])
     csv_file = csv_data.to_csv(index=False)
-    return csv_file
+    return csv_file       #Comma-Separated Values
+
+
